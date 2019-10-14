@@ -16,7 +16,7 @@ node{
     sh "ant -f build-mt.xml" 
  }
  stage('Send Email Notification'){
-     mail bcc: 'mithunreddytechnologies@gmail.com', body: 'Build is done', cc: '', from: '', replyTo: '', subject: 'Build Status', to: 'devopstrainingblr@gmail.com'
+     mail bcc: 'chittibabudams@gmail.com', body: 'Build is done', cc: '', from: '', replyTo: '', subject: 'Build Status', to: 'chittibabudam@gmail.com'
  }
  /*stage('Archive'){
   archiveArtifacts '/Users/bhaskarreddyl/.jenkins/workspace/Pipeline-Project-Ant-Web/dist/SampleAntProject.war'
