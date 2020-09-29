@@ -23,7 +23,7 @@
 		<copy todir="${work.home}">
 			<fileset dir="${web.home}"/>
 		</copy>
-	</target>
+	</target> ##comment
 
 	<target name="compile" 
 	          description="Compile Java sources and copy to WEB-INF/classes dir">
